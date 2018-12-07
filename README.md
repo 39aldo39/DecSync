@@ -7,7 +7,7 @@ Currently, DecSync can be used to synchronize RSS, contacts and calendars using 
 
 ### RSS
 
-* [FeedReader with DecSync plugin (Linux)](https://github.com/39aldo39/FeedReader)
+* [FeedReader with DecSync plugin (Linux)](https://github.com/jangernert/FeedReader)
 * [spaRSS DecSync (Android)](https://github.com/39aldo39/spaRSS-DecSync)
 
 ### Contacts/Calendars
