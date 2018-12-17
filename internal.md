@@ -3,7 +3,7 @@ Internal
 
 Internally, all key-value mappings are stored in files in the DecSync directory. Each collection is stored in the subdirectory `syncType/collectionId`, or just `syncType` if there is just one collection for the sync type.
 
-In each collection, there are three directories: `"new-entries"`, `"stored-entries"` and `"read-bytes"`. Each `appId` has an own subdirectory in each of these: `"new-entries"/appId`, `"stored-entries"/appId` and `"read-bytes"/appId`. This way, file conflicts are impossible, since concurrent updates modify different directories.
+In each collection, there are four directories: `"new-entries"`, `"stored-entries"`, `"read-bytes"` and `"info"`. Each `appId` has an own subdirectory in each of these: `"new-entries"/appId`, `"stored-entries"/appId` etc. This way, file conflicts are impossible, since concurrent updates modify different directories.
 
 ### New entries
 In the directory `"new-entries"` updated entries are stored. When an application sets a `key` at a `value` in a `path` at a `datetime`, the JSON value `[datetime, key, value]` is appended to the file `"new-entries"/appId/path`.
@@ -15,6 +15,9 @@ When an entry is updated (either by the current application, or another one), it
 
 ### Read bytes
 In the directory `"read-bytes"` the amount of processed entries are stored. The locations of the files have the format `"read-bytes"/ownAppId/otherAppId/path` and contains an integer indicating the number of bytes read from the file `"new-entries"/otherAppId/path`. When an application looks for additions to that file, it can skip to the new part of the file. Even better, if the number of read bytes is equal to the file size, it does not even have to open the file.
+
+### Info
+In the directory `"info"` some additional information is stored. Currently, only the datetime of the most latest stored entry is stored in `"info"/appId/"latest-stored-entry"`. This is used to get the most up-to-date appId (approximately) for an initial sync.
 
 ### Sequence numbers
 In addition to storing the number of read bytes of each file in `"new-entries"`, the sequence numbers of the subdirectories are stored as well. Every subdirectory contains the hidden file `".decsync-sequence"`, which contains the number of times a file in the subdirectory has been updated. For example, when an entry is updated at the path `"new-entries"/appId/"dir1"/"dir2"/"file"`, the integers stored in `"new-entries"/appId/"dir1"/"dir2"/".decsync-sequence"`, `"new-entries"/appId/"dir1"/".decsync-sequence"` and `"new-entries"/appId/".decsync-sequence"` are increased by 1. Additionally, these files are stored in `"read-bytes"` as well. Using this, an application can skip a directory in `"new-entries"` if its sequence number is equal to its stored one. In particular, it only has to read the file `"new-entries"/appId/".decsync-sequence"` when there are no updates.
