@@ -25,3 +25,7 @@ If you want to use DecSync in your own application, you can use the libraries [l
 The structure of the synchronized mappings used for RSS and contacts/calendars are described in [rss.md](rss.md) and [contacts-calendars.md](contacts-calendars.md).
 
 For details about the internal implementation, see [internal.md](internal.md).
+
+Bitcoin donation
+----------------
+[`1JWYoV2MZyu8LYYHCur9jUJgGqE98m566z`](bitcoin:1JWYoV2MZyu8LYYHCur9jUJgGqE98m566z)
