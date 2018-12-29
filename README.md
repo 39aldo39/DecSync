@@ -26,6 +26,11 @@ The structure of the synchronized mappings used for RSS and contacts/calendars a
 
 For details about the internal implementation, see [internal.md](internal.md).
 
-Bitcoin donation
-----------------
+Donations
+---------
+
+### PayPal
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4V96AFD3S4TPJ)
+
+### Bitcoin
 [`1JWYoV2MZyu8LYYHCur9jUJgGqE98m566z`](bitcoin:1JWYoV2MZyu8LYYHCur9jUJgGqE98m566z)
