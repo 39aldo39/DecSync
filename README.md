@@ -12,15 +12,16 @@ Currently, DecSync can be used to synchronize RSS, contacts and calendars using 
 
 ### Contacts/Calendars
 
+* [DecSync for Radicale (Radicale plugin)](https://github.com/39aldo39/Radicale-DecSync)
 * [DecSync for Evolution (Evolution plugin)](https://github.com/39aldo39/Evolution-DecSync)
 * [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC)
 
-To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories. By default, the DecSync directory is `~/.local/share/decsync` on Linux and `DecSync` in the primary external storage on Android.
+To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories. On Linux the default DecSync directory is `~/.local/share/decsync`, while on Android you have to select your own.
 
 Technical
 ---------
 
-If you want to use DecSync in your own application, you can use the libraries [libdecsync-android](https://github.com/39aldo39/libdecsync-android) and [libdecsync-vala](https://github.com/39aldo39/libdecsync-vala).
+If you want to use DecSync in your own application, you can use the multiplatform library [libdecsync](https://github.com/39aldo39/libdecsync). There are also the old libraries [libdecsync-android](https://github.com/39aldo39/libdecsync-android) and [libdecsync-vala](https://github.com/39aldo39/libdecsync-vala).
 
 The structure of the synchronized mappings used for RSS and contacts/calendars are described in [rss.md](rss.md) and [contacts-calendars.md](contacts-calendars.md).
 
