@@ -21,11 +21,13 @@ To start using DecSync, all you have to do is install some of the applications a
 Technical
 ---------
 
-If you want to use DecSync in your own application, you can use the multiplatform library [libdecsync](https://github.com/39aldo39/libdecsync). There are also the old libraries [libdecsync-android](https://github.com/39aldo39/libdecsync-android) and [libdecsync-vala](https://github.com/39aldo39/libdecsync-vala).
+If you want to use DecSync in your own application, you can use the multiplatform library [libdecsync](https://github.com/39aldo39/libdecsync).
 
 The structure of the synchronized mappings used for RSS and contacts/calendars are described in [rss.md](rss.md) and [contacts-calendars.md](contacts-calendars.md).
 
-For details about the internal implementation, see [internal.md](internal.md).
+Information about the design of DecSync, and how to apply it is given in [design.md](design.md).
+
+For details about the internal implementation, see [spec-general.md](spec-general.md).
 
 Donations
 ---------

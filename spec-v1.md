@@ -1,5 +1,5 @@
-Internal
-========
+Specification (v1)
+==================
 
 Internally, all key-value mappings are stored in files in the DecSync directory. Each collection is stored in the subdirectory `syncType/collectionId`, or just `syncType` if there is just one collection for the sync type.
 
