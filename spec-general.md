@@ -2,7 +2,7 @@ Specification (general)
 =======================
 
 This document describes some behavior of DecSync unrelated to a specific version.
-The specifications for specific versions are given in [spec-v1.md](spec-v1.md).
+The specifications for specific versions are given in [spec-v1.md](spec-v1.md) and [spec-v2.md](spec-v2.md).
 The main functions for interacting with the DecSync data are given in [api.md](api.md).
 
 Static methods
