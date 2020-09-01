@@ -103,8 +103,8 @@ Furthermore, there is a `info` file stored inside this directory, which is used 
 ### Hash function
 
 The hash function hashes a `path` to an integer in `[0, 256)` expressed as two lowercase hexadecimal digits.
-It is the polynomial hash modulo 256 of its hashed parts evaluated at 119.
-That is, `[s1, s2, ..., sn]` is hashed to `119^(n-1)*h_s(s1) + 119^(n-2)*h_s(s2) + ... + 1*h_s(sn)`.
+It is the polynomial hash modulo 256 of its hashed parts evaluated at 199.
+That is, `[s1, s2, ..., sn]` is hashed to `199^(n-1)*h_s(s1) + 199^(n-2)*h_s(s2) + ... + 1*h_s(sn)`.
 Here, `h_s` is the hash for the strings.
 This is also a polynomial hash modulo 256, but over the UTF-8 bytestring and evaluated at 19.
 That is, `[b1, b2, ..., bn]` is hashed to `19^(n-1)*b1 + 19^(n-2)*b2 + ... + 1*bn`.
