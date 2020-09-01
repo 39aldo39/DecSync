@@ -50,15 +50,15 @@ DecSync
     └── v2
         ├── appId1
         │   ├── 0b
-        │   ├── 6c
+        │   ├── b9
         │   └── sequences
         └── appId2
             ├── 0b
-            ├── 6c
+            ├── b9
             └── sequences
 ```
 
-With for example `DecSync/rss/v2/appId1/6c`:
+With for example `DecSync/rss/v2/appId1/b9`:
 
 ```
 [["feeds", "subscriptions"], "2020-07-17T12:34:56", "https://foo.example.com/rss", true]
@@ -69,7 +69,7 @@ With for example `DecSync/rss/v2/appId1/6c`:
 `DecSync/rss/v2/appId1/sequences`:
 
 ```
-{"0b": 1, "6c": 4}
+{"0b": 1, "b9": 4}
 ```
 
 `DecSync/rss/local/appId2/info`:
@@ -81,7 +81,7 @@ With for example `DecSync/rss/v2/appId1/6c`:
 `DecSync/rss/local/appId2/sequences`:
 
 ```
-{"appId1": {"0b": 1, "6c": 2}}
+{"appId1": {"0b": 1, "b9": 2}}
 ```
 
 ### Entry files
