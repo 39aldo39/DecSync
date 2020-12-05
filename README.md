@@ -1,22 +1,22 @@
 DecSync
 =======
 
-DecSync (Decentralized Synchronization) synchronizes key-value mappings using the file system in a conflict-free way. It uses a synchronized directory to synchronize the mappings. This can be done without a server by using for example [Syncthing](https://syncthing.net).
+DecSync (Decentralized Synchronization) synchronizes RSS, contacts, calendars, tasks and more without requiring a server. It uses a synchronized directory to synchronize the data. This can be done without a server by using for example [Syncthing](https://syncthing.net), but any other method like Google Drive or Dropbox also works.
 
-Currently, DecSync can be used to synchronize RSS, contacts and calendars using the following applications.
+DecSync can also be used to synchronize custom key-value mappings, but currently synchronization of RSS, contacts, calendars, tasks and memos is implemented using the following applications.
 
 ### RSS
 
-* [FeedReader with DecSync plugin (Linux)](https://github.com/jangernert/FeedReader)
+* [FeedReader with DecSync plugin (Linux)](https://github.com/39aldo39/FeedReader)
 * [spaRSS DecSync (Android)](https://github.com/39aldo39/spaRSS-DecSync)
 
-### Contacts/Calendars
+### Contacts/Calendars/Tasks/Memos
 
 * [DecSync for Radicale (Radicale plugin)](https://github.com/39aldo39/Radicale-DecSync)
 * [DecSync for Evolution (Evolution plugin)](https://github.com/39aldo39/Evolution-DecSync)
-* [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC)
+* [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC). Tasks are supported through [OpenTasks](https://opentasks.app), memos are not supported.
 
-To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories. On Linux the default DecSync directory is `~/.local/share/decsync`, while on Android you have to select your own.
+To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories.
 
 Technical
 ---------
