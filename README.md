@@ -14,7 +14,7 @@ DecSync can also be used to synchronize custom key-value mappings, but currently
 
 * [DecSync for Radicale (Radicale plugin)](https://github.com/39aldo39/Radicale-DecSync)
 * [DecSync for Evolution (Evolution plugin)](https://github.com/39aldo39/Evolution-DecSync)
-* [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC). Tasks are supported through [OpenTasks](https://opentasks.app), memos are not supported.
+* [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC). Tasks are supported through [OpenTasks](https://opentasks.app) and [tasks.org](https://tasks.org), memos are not supported.
 
 To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories.
 
