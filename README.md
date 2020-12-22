@@ -7,14 +7,14 @@ DecSync can also be used to synchronize custom key-value mappings, but currently
 
 ### RSS
 
-* [FeedReader with DecSync plugin (Linux)](https://github.com/39aldo39/FeedReader)
-* [spaRSS DecSync (Android)](https://github.com/39aldo39/spaRSS-DecSync)
+* [FeedReader with DecSync plugin](https://github.com/39aldo39/FeedReader) (Linux)
+* [spaRSS DecSync](https://github.com/39aldo39/spaRSS-DecSync) (Android)
 
 ### Contacts/Calendars/Tasks/Memos
 
-* [DecSync for Radicale (Radicale plugin)](https://github.com/39aldo39/Radicale-DecSync)
-* [DecSync for Evolution (Evolution plugin)](https://github.com/39aldo39/Evolution-DecSync)
-* [DecSync CC (Android)](https://github.com/39aldo39/DecSyncCC). Tasks are supported through [OpenTasks](https://opentasks.app) and [tasks.org](https://tasks.org), memos are not supported.
+* [DecSync for Radicale](https://github.com/39aldo39/Radicale-DecSync) (Radicale plugin, Windows and Linux). Allows for synchronization with any CalDAV/CardDAV compatible client like [Thunderbird](https://thunderbird.net).
+* [DecSync for Evolution](https://github.com/39aldo39/Evolution-DecSync) (Evolution plugin, Linux)
+* [DecSync CC](https://github.com/39aldo39/DecSyncCC) (Android). Tasks are supported through [OpenTasks](https://opentasks.app) and [tasks.org](https://tasks.org), memos are not supported.
 
 To start using DecSync, all you have to do is install some of the applications above and synchronize the DecSync directories.
 
