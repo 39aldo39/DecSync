@@ -1,5 +1,5 @@
-Specification (v2, draft)
-=========================
+Specification (v2)
+==================
 
 File structure
 --------------
