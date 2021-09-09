@@ -8,6 +8,7 @@ DecSync can also be used to synchronize custom key-value mappings, but currently
 ### RSS
 
 * [FeedReader with DecSync plugin](https://github.com/39aldo39/FeedReader) (Linux)
+* [Flym DecSync](https://github.com/39aldo39/Flym-DecSync) (Android)
 * [spaRSS DecSync](https://github.com/39aldo39/spaRSS-DecSync) (Android)
 
 ### Contacts/Calendars/Tasks/Memos
