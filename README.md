@@ -3,7 +3,7 @@ DecSync
 
 DecSync (Decentralized Synchronization) synchronizes RSS, contacts, calendars, tasks and more without requiring a server. It uses a synchronized directory to synchronize the data. This can be done without a server by using for example [Syncthing](https://syncthing.net), but any other method like Google Drive or Dropbox also works.
 
-DecSync can also be used to synchronize custom key-value mappings, but currently synchronization of RSS, contacts, calendars, tasks and memos is implemented using the following applications.
+DecSync can also be used to synchronize custom key-value mappings, but currently synchronization of RSS, contacts, calendars, tasks and memos is implemented using the following applications:
 
 ### RSS
 
